@@ -26,4 +26,4 @@ function onStopBtnClick() {
   stopBtn.setAttribute('disabled', true);
 }
 
-console.log(startBtn);
+// console.log(startBtn);
