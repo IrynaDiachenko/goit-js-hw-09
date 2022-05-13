@@ -17,7 +17,8 @@ function onStartBtnClick() {
     () => (bodyEl.style.backgroundColor = getRandomHexColor()),
     1000,
   );
-  startBtn.setAttribute('disabled');
+  startBtn.setAttribute('disabled', true);
+  stopBtn.removeAttribute('disabled');
 }
 
 function onStopBtnClick() {
