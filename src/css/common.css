@@ -16,3 +16,58 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url('/src/images/pexels-thirdman-5981926.jpeg');
+}
+
+.button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+}
+
+.container {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.value {
+  color: #fafafa;
+  font-size: 56px;
+  padding: 10px;
+}
+
+.label {
+  color: #fafafa;
+  font-size: 24px;
+  padding: 5px;
+}
+
+.conteiner {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
