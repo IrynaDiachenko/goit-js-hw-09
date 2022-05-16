@@ -17,14 +17,14 @@ img {
   max-width: 100%;
 }
 
-.hero {
+/* .hero {
   width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  background-image: url('/src/images/pexels-thirdman-5981926.jpeg');
-}
+  background-image: url('./src/images/pexels-thirdman-5981926.jpeg');
+} */
 
 .button {
   border: none;
